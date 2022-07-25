@@ -46,8 +46,8 @@ from mdcs.settings import DOCUMENTATION_LINK
 #     "nodropdown", MenuItem("Create a Record", reverse("core_curate_index"))
 # )
 Menu.add_item(
-    "nodropdown", 
-    MenuItem("Browse and Search Records", 
+    "nodropdown",
+    MenuItem("Browse and Search Records",
              reverse("core_explore_keyword_app_search"),
              icon="search",
              iconClass="fas")
@@ -55,27 +55,27 @@ Menu.add_item(
 
 Menu.add_item(
     "nodropdown",
-    MenuItem("LINK 1",
-             "https://example.com",
-             icon="fish",
+    MenuItem("Euclid Techlabs",
+             "https://www.euclidtechlabs.com/",
+             icon="globe",
              iconClass="fas")
 )
 
 Menu.add_item(
     "nodropdown",
-    MenuItem("LINK 2",
-             "https://example.com",
+    MenuItem("NexusLIMS",
+             "https://pages.nist.gov/NexusLIMS/",
              icon="fish",
              iconClass="fas")
 )
 
-Menu.add_item(
-    "nodropdown",
-    MenuItem("LINK 3",
-             "https://example.com",
-             icon="users",
-             iconClass="fas")
-)
+# Menu.add_item(
+#     "nodropdown",
+#     MenuItem("LINK 3",
+#              "https://example.com",
+#              icon="users",
+#              iconClass="fas")
+# )
 
 # Menu.add_item(
 #     "explorer", MenuItem("Build a Custom Query", reverse("core_explore_example_index"))
@@ -128,19 +128,19 @@ Menu.add_item(
     MenuItem("My Queries", reverse("core_dashboard_queries"), icon="search"),
 )
 
-Menu.add_item(
-    "nodropdown", MenuItem("Tutorial", 
-                     "#",
-                     icon="question-circle",
-                     iconClass="fas")
-)
+# Menu.add_item(
+#     "nodropdown", MenuItem("Tutorial",
+#                      "#",
+#                      icon="question-circle",
+#                      iconClass="fas")
+# )
 
-Menu.add_item(
-    "help", MenuItem("NexusLIMS Documentation", 
-                     DOCUMENTATION_LINK,
-                     icon="book",
-                     iconClass="fas")
-)
+# Menu.add_item(
+#     "help", MenuItem("NexusLIMS Documentation",
+#                      DOCUMENTATION_LINK,
+#                      icon="book",
+#                      iconClass="fas")
+# )
 
 Menu.add_item(
     "help", MenuItem("API Documentation", reverse("swagger_view"), icon="cogs", iconClass="fas")

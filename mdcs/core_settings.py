@@ -8,7 +8,7 @@ SERVER_URI = os.environ["SERVER_URI"] if "SERVER_URI" in os.environ else None
 WEBSITE_SHORT_TITLE = "MDCS"
 CUSTOM_DATA = "Materials Data"
 CUSTOM_NAME = os.environ["SERVER_NAME"] if "SERVER_NAME" in os.environ else "Curator"
-CUSTOM_TITLE = "Welcome to NexusLIMS!"
+CUSTOM_TITLE = "Welcome to EulicdLIMS!"
 CUSTOM_SUBTITLE = "Part of the Materials Genome Initiative"
 CURATE_MENU_NAME = "Data Curation"
 WEBSITE_ADMIN_COLOR = "yellow"
@@ -31,7 +31,7 @@ EXPLORE_ADD_DEFAULT_LOCAL_DATA_SOURCE_TO_QUERY = True
 """
 
 SSL_CERTIFICATES_DIR = True
-""" Either a boolean, in which case it controls whether requests verify the server's TLS certificate, 
+""" Either a boolean, in which case it controls whether requests verify the server's TLS certificate,
 or a string, in which case it must be a path to a CA bundle to use.
 """
 
@@ -43,7 +43,7 @@ DISPLAY_EDIT_BUTTON = True
 """ boolean: Display the edit button on the result page
 """
 DATA_SORTING_FIELDS = ["-last_modification_date"]
-""" Array<string>: Default sort fields for the data query. 
+""" Array<string>: Default sort fields for the data query.
 """
 DATA_DISPLAYED_SORTING_FIELDS = [
     {

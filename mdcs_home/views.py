@@ -60,7 +60,7 @@ def tiles(request):
             "logo": "fa-search",
             "link":  reverse("core_explore_keyword_app_search"),
             "title": "Browse and Search Records",
-            "text": "Click here to explore the NexusLIMS record repository",
+            "text": "Click here to explore the EuclidLIMS record repository",
             "id": "app_search"
         }
 
